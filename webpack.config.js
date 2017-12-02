@@ -11,7 +11,10 @@ module.exports = {
     },
 
     resolve: {
-        alias: {}
+        alias: {
+            logo: path.resolve(__dirname, './assets/images.png'),
+            content: path.resolve(__dirname, './src/content.js')
+        }
     },
 
     module: {
