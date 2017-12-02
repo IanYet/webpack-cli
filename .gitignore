@@ -1,0 +1,7 @@
+*.xml
+
+node_modules/
+.idea/
+
+dist/
+!dist/app.html

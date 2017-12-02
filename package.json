@@ -1,8 +1,8 @@
 {
-  "name": "enot",
+  "name": "webpack-cli",
   "version": "1.0.0",
-  "description": "the web notebook client",
-  "main": "index.js",
+  "description": "a simple, easy and basic webpack config and dictionary project",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack-dev-server --progress --color --hot --open",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/IanYet/enot.git"
+    "url": "git+https://github.com/IanYet/webpack-cli.git"
   },
   "author": "Ian",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/IanYet/enot/issues"
+    "url": "https://github.com/IanYet/webpack-cli/issues"
   },
-  "homepage": "https://github.com/IanYet/enot#readme",
+  "homepage": "https://github.com/IanYet/webpack-cli#readme",
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
