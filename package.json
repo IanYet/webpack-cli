@@ -1,0 +1,31 @@
+{
+  "name": "enot",
+  "version": "1.0.0",
+  "description": "the web notebook client",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --progress --color --hot --open",
+    "build": "webpack -p --progress --color"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IanYet/enot.git"
+  },
+  "author": "Ian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IanYet/enot/issues"
+  },
+  "homepage": "https://github.com/IanYet/enot#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "css-loader": "^0.28.7",
+    "file-loader": "^1.1.5",
+    "url-loader": "^0.6.2",
+    "webpack": "^3.9.1",
+    "webpack-dev-server": "^2.9.5"
+  }
+}
