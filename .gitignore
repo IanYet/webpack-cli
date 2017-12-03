@@ -3,5 +3,5 @@
 node_modules/
 .idea/
 
-dist/
+dist/*
 !dist/app.html
